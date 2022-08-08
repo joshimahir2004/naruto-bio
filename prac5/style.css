@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#more {
+  display: none;
+}
+:root {
+  --primary-grey: #2a3138;
+  --primary-light-grey: #3a4750;
+  ---primary-light-sky: #07f3ff;
+  --primary-white: white;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: #00f2ff #3a4750;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #3a4750;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00f2ff;
+  border-radius: 40px;
+  border: 1px solid #000000;
+}
+/* <!---------------------------------------------------CONT-1------------------------------------------------------------------------------> */
+
+.cont1 {
+  background-color: var(--primary-grey);
+  color: rgba(255, 255, 255, 0.863);
+}
+.Naruto-logo {
+  margin-left: 42.5%;
+  margin-top: 2rem;
+  height: 12rem;
+  border-radius: 20px;
+  box-shadow: 0 3px 2px 1px black;
+}
+.n-name {
+  color: var(---primary-light-sky);
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+.info {
+  padding: 1rem 6rem;
+  font-size: medium;
+  margin-top: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: "Volkhov", serif;
+  background-color: rgba(0, 0, 0, 0.158);
+}
+
+.b-read-mode {
+  margin-left: 1rem;
+  border-radius: 20px;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(---primary-light-sky);
+  border: none;
+}
+/* <!---------------------------------------------------CONT-1-HOVER-----------------------------------------------------------------------------> */
+.Naruto-logo:hover {
+  transition: 0.5s;
+  box-shadow: 1px 1px 9px 1px black;
+  transform: translateY(5px);
+  height: 14rem;
+  margin-left: 41.5%;
+}
+.b-read-mode:active {
+  transform: translateY(2px);
+}
+
+/* <!---------------------------------------------------CONT-2------------------------------------------------------------------------------> */
+.cont2 {
+  
+  height: 20rem;
+  overflow-y: scroll;
+  display: grid;
+  background-color: var(--primary-light-grey);
+}
+.im1 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+  background-color: var(--primary-light-grey);
+  border: 1px solid var(--primary-grey);
+  display: flex;
+  align-items: center;
+}
+.phtos-n {
+  border: 1px solid;
+  margin-top: 2rem;
+  width: 15rem;
+  height: 15rem;
+}
+.info-c {
+  color: white;
+  font-size: medium;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+.b-read-mode a {
+  color: black;
+  text-decoration: none;
+}
